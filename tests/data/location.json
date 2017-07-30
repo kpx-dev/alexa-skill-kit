@@ -1,0 +1,49 @@
+{
+    "session": {
+        "sessionId": "SessionId.edb7d197-474a-4aa4-8578-617be75570db",
+        "application": {
+            "applicationId": "amzn1.ask.skill.64f32e53-97ef-4f27-b478-18be3862e5a7"
+        },
+        "attributes": {},
+        "user": {
+            "userId": "amzn1.ask.account.AHVWLUPSNFQ5ZZBGZIOJJKQFQUKPN3NYFAMLCJTQS56Z6NI7QTE2D4P5QEVAOML3TZR46646BKHAYVAYWRODUYM5U6XYNTQMPFBG3PMQ57UCZF3Y2K4ILEGVJIMBFCC4WAWKTCGSOI3JZ6HUW56Z2BOS57OO3AHN4U5JMIYJ6FOSYT3XRCVIZ5N2G2UWVOX36WHSVJVJPIB55DI",
+            "permissions": {
+                "consentToken": "Atza|IwEBIDaF2ynFPju_F8_uMrJul9wHz3blGko-vz8pT5Zk79k8RYMIfT0Z5EYPNfeffN8LUpv1LhtgO20MDjIHXE4KlLXzsOO56oFRwm6-zL_uOAkdIF491KX6e2VGvMiBOOWZyO0bB0UilM0I3BuHNT7n4QpjG4Wt1La4Bqzjfi3Rd5aP7DsO_uzPPyc31pSGHwpwpuAjXu15WF5A7XRZxmuUTfjx5Xc2Jca26RpFDtDw5uYQxMuKD20NPpwBePzMhYHaGkO-stpHssd6tKKzHOq2iDXO4PeRFmEfTfO4VIwFpeRlD0F8tb82xqc1V1iX79jzzGjWFsct0UEMUbn-WAeb2PL2hqPGCzGEQgSKEIMepHaO0p7pJabCivumGGpGUHOUTrCcDOOxSYAZl5Blsbla5F9dDYqlfOUiNtBEJiSkYBPe4K_MivjC1XndJtw7PZsEHY0BNOFG7alJNX_z7EWmETAzFXmN2Hl97i4MUnp0rSdAnA"
+            }
+        },
+        "new": true
+    },
+    "request": {
+        "requestId": "EdwRequestId.beba2d7b-321b-4f84-a5e3-effd508c7c5e",
+        "locale": "en-US",
+        "type": "IntentRequest",
+        "timestamp": "2017-07-27T05:21:02Z",
+        "intent": {
+            "name": "EatMeIntent",
+            "slots": {}
+        }
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "STOPPED"
+        },
+        "System": {
+            "application": {
+                "applicationId": "app_id"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AHVWLUPSNFQ5ZZBGZIOJJKQFQUKPN3NYFAMLCJTQS56Z6NI7QTE2D4P5QEVAOML3TZR46646BKHAYVAYWRODUYM5U6XYNTQMPFBG3PMQ57UCZF3Y2K4ILEGVJIMBFCC4WAWKTCGSOI3JZ6HUW56Z2BOS57OO3AHN4U5JMIYJ6FOSYT3XRCVIZ5N2G2UWVOX36WHSVJVJPIB55DI",
+                "permissions": {
+                    "consentToken": "Atza|IwEBIDaF2ynFPju_F8_uMrJul9wHz3blGko-vz8pT5Zk79k8RYMIfT0Z5EYPNfeffN8LUpv1LhtgO20MDjIHXE4KlLXzsOO56oFRwm6-zL_uOAkdIF491KX6e2VGvMiBOOWZyO0bB0UilM0I3BuHNT7n4QpjG4Wt1La4Bqzjfi3Rd5aP7DsO_uzPPyc31pSGHwpwpuAjXu15WF5A7XRZxmuUTfjx5Xc2Jca26RpFDtDw5uYQxMuKD20NPpwBePzMhYHaGkO-stpHssd6tKKzHOq2iDXO4PeRFmEfTfO4VIwFpeRlD0F8tb82xqc1V1iX79jzzGjWFsct0UEMUbn-WAeb2PL2hqPGCzGEQgSKEIMepHaO0p7pJabCivumGGpGUHOUTrCcDOOxSYAZl5Blsbla5F9dDYqlfOUiNtBEJiSkYBPe4K_MivjC1XndJtw7PZsEHY0BNOFG7alJNX_z7EWmETAzFXmN2Hl97i4MUnp0rSdAnA"
+                }
+            },
+            "device": {
+                "deviceId": "xyz",
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            },
+            "apiEndpoint": "https://api.amazonalexa.com"
+        }
+    }
+}

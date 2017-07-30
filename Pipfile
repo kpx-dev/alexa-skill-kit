@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = 3
+
+[packages]
+requests = "==2.18.1"
+boto3 = "==1.4.4"
+PyYAML = "==3.12"
+aniso8601 = "==1.2.1"
+
+[dev-packages]
+awslogs = "*"
+click = "*"
+pycodestyle = "*"
+nose = "*"

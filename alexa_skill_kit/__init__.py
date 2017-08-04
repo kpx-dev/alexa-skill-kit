@@ -14,7 +14,7 @@ from datetime import datetime
 from pathlib import Path
 from functools import wraps
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 

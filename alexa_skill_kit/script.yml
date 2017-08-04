@@ -1,0 +1,27 @@
+launch: |
+  Thanks for installing my skill.
+
+launch_repeat: |
+  You can change this text at launch repeat section of the script.yml file
+
+requires_permission: |
+  This skill requires additional permissions to use.
+  Please open Alexa app, under Manage Permission, grant it required permissions.
+
+help: |
+  This is a sample help message.
+
+answer_speech: |
+  This is the answer for the user to hear.
+
+answer_repeat: |
+  Repeat the answer.
+
+answer_card_title: |
+  Alexa App Card Title
+
+answer_card_content: |
+  Alexa App Card Content
+
+end: |
+  Say something when skill ended

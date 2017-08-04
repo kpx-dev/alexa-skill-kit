@@ -5,10 +5,11 @@ from pathlib import Path
 fixture = Path.cwd().joinpath('tests/data/location.json')
 with fixture.open() as f:
     event = json.load(f)
-ask = AlexaSkillKit(event=event)
+ask = AlexaSkillKit()
 
 
 def test_init():
+    ask.init(event=event)
     assert ask.device_id == 'xyz'
 
 
@@ -23,11 +24,11 @@ def test_card():
 
 
 def test_success():
-    speech_text = 'speech_text'
-    res = ask.success(speech_text=speech_text)
+    message = 'message'
+    res = ask.success(message=message)
 
     assert res['response']['outputSpeech']['type'] == 'PlainText'
-    assert res['response']['outputSpeech']['text'] == speech_text
+    assert res['response']['outputSpeech']['text'] == message
     assert res['response']['shouldEndSession'] is True
 
 

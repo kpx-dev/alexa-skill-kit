@@ -24,11 +24,6 @@ setup(
         'boto3',
         'requests',
     ],
-    test_requires=[
-        'boto3',
-        'mock',
-        'requests',
-    ],
     test_suite='tests',
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
